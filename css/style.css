@@ -1,0 +1,130 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+#header {
+    width: 100%;
+    background-color: #00FF00;
+    height: 80px;
+    position: fixed;
+    margin-top: 20px;
+    opacity: 0.6;
+}
+
+#logo a{
+    color: #FF0000;
+    font-family: 'Pacifico', cursive;
+    font-size: 45px;
+    float: left;
+    margin-left: 30px;
+    text-decoration: none;
+    opacity: 1;
+}
+
+#nav { width: 600px; float: right; margin-top: 20px; }
+
+#nav ul{
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+    list-style: none;
+}
+
+#nav li{
+    margin-top: 9px;
+    float: left;
+    padding-left: 21px;
+}
+
+#nav li a { color: #0000FF; font-size: 16px; text-decoration: none; font-family: 'Wellfleet', cursive; }
+
+#nav li a.active { color: #F000FF; opacity:1; border-bottom: 2px solid #fff; }
+
+#nav li a:hover { color: #F000FF; opacity:1;  }
+
+
+
+.bg {
+    height: 800px;
+}
+
+#nav1{
+    height: 800px;
+    margin-top: -20px;
+}
+
+#nav1 .bg {
+    background: url("../img/nav1_bg.jpg") no-repeat;
+    background-size: 100% 800px;
+}
+
+#nav1 .bg .content {
+    float: right;
+    margin: 395px 250px 0 0;
+}
+
+#nav2{
+    height: 800px;
+}
+
+#nav2 .bg {
+    background: url("../img/nav2_bg.jpg") no-repeat;
+    background-size: 100% 800px;
+}
+
+#nav2 .bg .content {
+    float: right;
+    margin: 395px 250px 0 0;
+}
+
+#nav3{
+    height: 800px;
+}
+
+#nav3 .bg {
+    background: url("../img/nav3_bg.jpg") no-repeat;
+    background-size: 100% 800px;
+}
+
+#nav3 .bg .content {
+    float: right;
+    margin: 395px 250px 0 0;
+    opacity: 0;
+}
+
+#nav4{
+    height: 800px;
+}
+
+#nav4 .bg {
+    background: url("../img/nav4_bg.jpg") no-repeat;
+    background-size: 100% 800px;
+}
+
+#nav4 .bg .content {
+    float: right;
+    margin: 395px 250px 0 0;
+    opacity: 0;
+}
+
+#nav5{
+    height: 800px;
+}
+
+#nav5 .bg {
+    background: url("../img/nav5_bg.jpg") no-repeat;
+    background-size: 100% 800px;
+}
+
+#nav5 .bg .content {
+    position: absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 650px;
+    text-align: center;
+}
+

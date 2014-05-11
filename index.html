@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Demo Parallax Effect Website</title>
+    <link href='css/style.css' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<header id="header">
+    <div>
+        <div id="logo"><a href="#">Heading</a></div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#nav1" title="Navigate to Option 1">Option 1</a></li>
+                <li><a href="#nav2" title="Navigate to Option 2">Option 2</a></li>
+                <li><a href="#nav3" title="Navigate to Option 3">Option 3</a></li>
+                <li><a href="#nav4" title="Navigate to Option 4">Option 4</a></li>
+                <li><a href="#nav5" title="Navigate to Option 5">Option 5</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="nav1" class="nav1">
+    <div class="bg">
+        <h1 class="content" data-0="opacity:1; margin-top: 395px;" data-350="opacity:0; margin-top: 630px;">Demo Content Here for 1st Option</h1>
+    </div>
+</section>
+
+<section id="nav2" class="nav2">
+    <div class="bg">
+        <h1 class="content" data-800="opacity:1; margin-right: 250px;" data-1150="opacity:0; margin-right: 0px;">Demo Content Here for 2nd Option</h1>
+    </div>
+</section>
+
+<section id="nav3" class="nav3">
+    <div class="bg" data-1100="opacity:0;" data-1400="opacity:1;" data-1600="opacity:1;" data-1900="opacity:0;">
+        <h1 class="content" data-1400="opacity:0;" data-1600="opacity:1;" data-1900="opacity:0;">Demo Content Here for 3rd Option</h1>
+    </div>
+</section>
+
+<section id="nav4" class="nav4">
+    <div class="bg" data-1900="opacity:0;" data-2200="opacity:1;">
+        <h1 class="content" data-2200="opacity:0;" data-2400="opacity:1;" >Demo Content Here for 4th Option</h1>
+    </div>
+</section>
+
+<section id="nav5" class="nav5">
+    <div class="bg">
+        <h1 class="content" data-2900="opacity:0; margin-top: 0px;" data-3200="opacity:1; margin-top: 650px;" >Thank You for watching this Demo</h1>
+    </div>
+</section>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.js"></script>
+<script type="text/javascript" src="js/skrollr.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
